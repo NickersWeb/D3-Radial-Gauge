@@ -2,11 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>D3 Radial - Gauge Demo</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="CustomGauge.js"></script>
 </head>
 <body>
 <div>
-  <div id="singleGauge"></div>
-  <div id="multiGauge"></div>
+  <div id="singleGauge" style="height:260px;"></div>
+  <div id="multiGauge" style="height:260px;"></div>
 </div>
     <script type="text/javascript">
          $(function () {
@@ -68,14 +71,12 @@
                "majorGradPrecision":1,
                "gaugeTitle":"Multi Gauge"
            };
+       
            var singleGauge = new CustomGauge($("#singleGauge"),gaugeDataSingle);
            var multiGauge = new CustomGauge($("#multiGauge"),gaugeDataMulti);
            singleGauge.initialise();
            multiGauge.initialise();
          });
     </script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="CustomGauge.js"></script>
 </body>
 </html>
