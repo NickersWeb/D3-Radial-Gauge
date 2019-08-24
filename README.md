@@ -1,9 +1,10 @@
 D3-Radial-Gauge
 ===============
 
-D3.JS Radial Gauge
+D3.JS Radial Gauge / Multi Needle.
 
-![alt tag](https://raw.github.com/stherrienaspnet/D3-Radial-Gauge/master/D3RadialGauge.png)
+![alt tag](https://raw.github.com/stherrienaspnet/D3-Radial-Gauge/master/SingleGauge.png)
+![alt tag](https://raw.github.com/stherrienaspnet/D3-Radial-Gauge/master/MultiGauge.png)
 
 Here is the list of properties with their default value that can be changed according to your needs:
 
