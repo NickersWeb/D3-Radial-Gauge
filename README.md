@@ -62,6 +62,7 @@ Here is a usage sample:
            multiGauge.initialise();
            //Can be updated onNeedlesChanged ... param of the new needles.
            //Updated Needles.
+           //if isAnimated prop is set true, will animate on the needles change. E.g. will slowly move to new values.
            var needles = [...]
            multiGauge.onNeedlesChanged(needles);
          });
