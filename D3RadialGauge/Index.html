@@ -20,7 +20,7 @@
                    {"id":"6d399f34-5395-41fe-88ac-d557ea675069","min":90,"max":100,"thickness":0.5,"color":"#0ab80e","value":"Very Good"}
                ],
                "needles":[
-                   {"id":"100aaf20-274d-4b64-99f4-e93de73f4fc1","value":100.0,"precision":1,"valueUnit":"ConditionofMainElementsAgeweighted","thickness":0.0,"color":"#416094","clickFunc":"","clickParams":""}
+                   {"id":"100aaf20-274d-4b64-99f4-e93de73f4fc1","value":100.0,"precision":1,"valueUnit":"Condition","thickness":0.0,"color":"#416094","clickFunc":"","clickParams":""}
                ],
                "face":{"thickness":0.0},
                "format":null,
@@ -36,7 +36,7 @@
                "showRanges":true,
                "isAnimated":true,
                "majorGradPrecision":1,
-               "gaugeTitle":"Cond. Main+Age "
+               "gaugeTitle":"Single Gauge "
            };
            var gaugeDataMulti =  {
                "ranges":[
@@ -48,9 +48,9 @@
                    {"id":"6d399f34-5395-41fe-88ac-d557ea675069","min":90,"max":100,"thickness":0.5,"color":"#0ab80e","value":"Very Good"}
                ],
                "needles":[
-                   {"id":"100aaf20-274d-4b64-99f4-e93de73f4fc1","value":100.0,"precision":1,"valueUnit":"ConditionofMainElementsAgeweighted","thickness":0.0,"color":"#416094","clickFunc":"","clickParams":""},
-                   {"id":"31964434-c976-4c80-9016-3d7d6536e3eb","value":100.0,"precision":1,"valueUnit":"ConditionIndexCrit","thickness":0.0,"color":"#269d2f","clickFunc":"","clickParams":""},
-                   {"id":"9639e5e1-e1d3-4e9e-88a3-6ec2691a729a","value":100.0,"precision":1,"valueUnit":"ConditionIndexAv","thickness":0.0,"color":"#22b80c","clickFunc":"","clickParams":""}
+                   {"id":"100aaf20-274d-4b64-99f4-e93de73f4fc1","value":100.0,"precision":1,"valueUnit":"Cond","thickness":0.0,"color":"#416094","clickFunc":"","clickParams":""},
+                   {"id":"31964434-c976-4c80-9016-3d7d6536e3eb","value":100.0,"precision":1,"valueUnit":"Av","thickness":0.0,"color":"#269d2f","clickFunc":"","clickParams":""},
+                   {"id":"9639e5e1-e1d3-4e9e-88a3-6ec2691a729a","value":100.0,"precision":1,"valueUnit":"Crit","thickness":0.0,"color":"#22b80c","clickFunc":"","clickParams":""}
                ],
                "face":{"thickness":0.0},
                "format":null,
@@ -66,7 +66,7 @@
                "showRanges":true,
                "isAnimated":true,
                "majorGradPrecision":1,
-               "gaugeTitle":"Cond. Main+Age "
+               "gaugeTitle":"Multi Gauge"
            };
            var singleGauge = new CustomGauge($("#singleGauge"),gaugeDataSingle);
            var multiGauge = new CustomGauge($("#multiGauge"),gaugeDataMulti);
