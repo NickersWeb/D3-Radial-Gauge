@@ -60,6 +60,10 @@ Here is a usage sample:
            var gaugeDataMulti =  {}
            var multiGauge = new CustomGauge($("#multiGauge"),gaugeDataMulti);
            multiGauge.initialise();
+           //Can be updated onNeedlesChanged ... param of the new needles.
+           //Updated Needles.
+           var needles = [...]
+           multiGauge.onNeedlesChanged(needles);
          });
     </script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
