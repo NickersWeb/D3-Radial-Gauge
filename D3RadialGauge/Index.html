@@ -9,8 +9,7 @@
   <div id="multiGauge"></div>
 </div>
     <script type="text/javascript">
-       function loadGauges(){
-           var gaugeContainer = $('.gaugeContainer');
+         $(function () {
            var gaugeDataSingle = {
                "ranges":[
                    {"id":"00b4c767-bc7b-4bea-9e56-229385ff75f8","min":0,"max":30,"thickness":0.5,"color":"#ff4f4f","value":"Severe"},
@@ -73,6 +72,7 @@
            var multiGauge = new CustomGauge($("#multiGauge"),gaugeDataMulti);
            singleGauge.initialise();
            multiGauge.initialise();
+         });
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="CustomGauge.js"></script>
