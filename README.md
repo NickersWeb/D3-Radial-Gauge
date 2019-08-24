@@ -8,7 +8,7 @@ D3.JS Radial Gauge / Multi Needle.
 
 Here is the list of properties with their default value that can be changed according to your needs:
 
-        {
+         {
                "ranges":[
                    {"id":"00b4c767-bc7b-4bea-9e56-229385ff75f8","min":0,"max":30,"thickness":0.5,"color":"#ff4f4f","value":"Severe"},
                    {"id":"62996c84-b822-4d02-aac7-3e7605bb173a","min":30,"max":50,"thickness":0.5,"color":"#ff8080","value":"Very Poor"},
@@ -18,7 +18,7 @@ Here is the list of properties with their default value that can be changed acco
                    {"id":"6d399f34-5395-41fe-88ac-d557ea675069","min":90,"max":100,"thickness":0.5,"color":"#0ab80e","value":"Very Good"}
                ],
                "needles":[
-                   {"id":"100aaf20-274d-4b64-99f4-e93de73f4fc1","value":100.0,"precision":1,"valueUnit":"ConditionofMainElementsAgeweighted","thickness":0.0,"color":"#416094","clickFunc":"","clickParams":""}
+                   {"id":"100aaf20-274d-4b64-99f4-e93de73f4fc1","value":100.0,"precision":1,"valueUnit":"Condition","thickness":0.0,"color":"#416094","clickFunc":"","clickParams":""}
                ],
                "face":{"thickness":0.0},
                "format":null,
@@ -34,7 +34,7 @@ Here is the list of properties with their default value that can be changed acco
                "showRanges":true,
                "isAnimated":true,
                "majorGradPrecision":1,
-               "gaugeTitle":"Cond. Main+Age "
+               "gaugeTitle":"Single Gauge "
            };
  
 Here is a usage sample:
