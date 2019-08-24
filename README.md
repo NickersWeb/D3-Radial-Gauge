@@ -40,7 +40,6 @@ Here is the list of properties with their default value that can be changed acco
 Here is a usage sample:
 ```
    <div>
-  <div id="singleGauge"></div>
   <div id="multiGauge"></div>
 </div>
     <script type="text/javascript">
