@@ -71,3 +71,4 @@ Here is a usage sample:
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="CustomGauge.js"></script>
 ```
+Demo - https://codepen.io/NickersWebDev/pen/ZEzeGEE
