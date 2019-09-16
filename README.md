@@ -1,4 +1,4 @@
-D3-Radial-Gauge
+Javascript D3-Radial-Gauge
 ===============
 
 D3.JS Radial Gauge / Multi Needle.
@@ -9,6 +9,7 @@ Multiple Ranges.
 Range comes with text.
 Accessibility with screen readers.
 Clickable Needles via needle params.
+Workable with and without Angular Js
 
 ```
 "clickFunc":"","clickParams":""
